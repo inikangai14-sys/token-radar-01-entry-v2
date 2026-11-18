@@ -1,0 +1,330 @@
+{
+ "checked_at": "2026-11-18T14:49:32Z",
+ "launched_count": 0,
+ "launched_since_snapshot": [],
+ "protocols": [
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "armitage-by-wintermute",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "axis",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "b14g",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "bittensor-dtao",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "clearstar",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "curvance",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "doppler-finance",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "ember",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "firelight",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "galaxy-curation",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "gami-labs",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "gauntlet",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "hive-protocol",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "hyperithm",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "infinifi",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "k3-capital",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "keyrock",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "lagoon",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "lightning-network",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "lofty",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "mezo-earn",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "noble",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "nonce-capital",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "onre",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "opentrade",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "plume-vaults",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "r25",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "reti-pooling",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "rockawayx",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "saturn",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "steakhouse-financial",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "symbiotic",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "tori-finance",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "tulipa-capital",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "tydro",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "upshift",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "usdd",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "valos",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "veda",
+   "symbol": "-"
+  },
+  {
+   "gecko_id": null,
+   "has_token_now": false,
+   "in_fresh_fetch": true,
+   "mcap_usd": null,
+   "slug": "yuzu-money",
+   "symbol": "-"
+  }
+ ],
+ "snapshot_as_of": "2026-11-14",
+ "source": "DefiLlama https://api.llama.fi/protocols, fetched live at build time",
+ "watchlist_checked": 40
+}
