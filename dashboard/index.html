@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Token Radar v2 — which pre-token protocol is worth farming next</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="mast-left">
+    <div class="logo" aria-hidden="true"><span class="sweep"></span></div>
+    <div>
+      <h1>TOKEN RADAR <span class="v2">v2</span></h1>
+      <p class="tag">The pre-token board, rebalanced: size sets the scale, momentum and breadth decide the order.</p>
+    </div>
+  </div>
+  <div class="mast-stats" id="mastStats"></div>
+</header>
+
+<nav class="tabs" role="tablist">
+  <button class="tab active" data-tab="board" role="tab">Board</button>
+  <button class="tab" data-tab="live" role="tab">Already launched</button>
+  <button class="tab" data-tab="method" role="tab">How the value is built</button>
+</nav>
+
+<section id="tab-board" class="panel">
+  <div class="board-grid">
+    <div class="dial-card">
+      <h2>Radar dial — top 8</h2>
+      <svg id="dial" viewBox="0 0 360 360" role="img" aria-label="Radar dial of the top eight protocols"></svg>
+      <p class="dial-note">Distance from the centre is the implied value. Colour is the 7-day TVL move: green rising, amber flat, red falling.</p>
+    </div>
+    <div class="table-card">
+      <div class="controls">
+        <input id="q" type="search" placeholder="Search a protocol…" aria-label="Search protocols">
+        <select id="cat" aria-label="Filter by category"><option value="">All categories</option></select>
+        <label class="chk"><input id="wlOnly" type="checkbox"> Watchlist only</label>
+        <label class="chk"><input id="hotOnly" type="checkbox"> Accelerating only</label>
+      </div>
+      <div class="table-wrap">
+        <table id="boardTable">
+          <thead><tr>
+            <th data-sort="rank">#</th><th data-sort="name">Protocol</th><th data-sort="category">Category</th>
+            <th data-sort="tvl" class="num">TVL</th><th data-sort="d7" class="num">7d</th>
+            <th data-sort="chains" class="num">Chains</th><th data-sort="age" class="num">Age</th>
+            <th data-sort="value" class="num">Implied value</th>
+          </tr></thead>
+          <tbody id="boardBody"></tbody>
+        </table>
+      </div>
+      <p class="count" id="rowCount"></p>
+    </div>
+  </div>
+</section>
+
+<section id="tab-live" class="panel hidden">
+  <h2>Already launched — not a launch candidate</h2>
+  <p class="lede">These protocols record a token, so the radar sets them aside. They are shown so the reader can see what the board excludes, and what a launched token is actually worth.</p>
+  <div class="table-wrap"><table id="liveTable">
+    <thead><tr><th>Protocol</th><th>Category</th><th class="num">TVL</th><th class="num">Token market cap</th></tr></thead>
+    <tbody id="liveBody"></tbody>
+  </table></div>
+</section>
+
+<section id="tab-method" class="panel hidden">
+  <h2>How the value is built</h2>
+  <p class="lede">Every number below comes from the snapshot’s own figures. No protocol name is hardcoded anywhere in the model.</p>
+  <ol class="method">
+    <li><b>Base — $120M.</b> What a $100M-TVL protocol is worth at neutral factors.</li>
+    <li><b>Size — (TVL / $100M)^0.30.</b> TVL sets the order of magnitude only: the biggest candidate outscores the smallest about 3× on size, not 50×. v1 used a near-linear size term and let giants sit on top even when their launch signal was weak.</li>
+    <li><b>Momentum — 1 + 7-day TVL change, clamped to −40…+60%.</b> A protocol growing 11% in a week is worth 11% more than the same protocol flat. Missing data counts as 0%.</li>
+    <li><b>Maturity — 0.75 + 0.25 × min(age / 730 days, 1).</b> The longer a protocol has run with no token, the closer a launch gets; under 120 days it takes a ×0.90 haircut. Unknown first day counts as 0.90.</li>
+    <li><b>Breadth — +2.5% per chain past the first, to +30%.</b> Multi-chain distribution is real reach.</li>
+    <li><b>Category — ×1.08 / ×0.94 / ×1.00.</b> Dexs, Lending, Yield, Restaking, RWA and Stablecoin Wrappers launch tokens most often; Insurance, CeDeFi, Chain and Staking Pools rarely do.</li>
+    <li><b>Readiness — ×1.10</b> when the 7-day change is over +3% <i>and</i> the protocol runs on 3 or more chains: accelerating <i>and</i> expanding.</li>
+  </ol>
+  <p class="lede">Implied values are this entry’s own claim, never a promise: a token may never be issued, and a farm plan is a way to use a protocol, not a guarantee of an airdrop.</p>
+</section>
+
+<aside id="drawer" class="drawer hidden" aria-live="polite">
+  <button id="drawerClose" class="drawer-close" aria-label="Close detail">×</button>
+  <div id="drawerBody"></div>
+</aside>
+
+<footer class="foot" id="foot"></footer>
+<script src="../data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
